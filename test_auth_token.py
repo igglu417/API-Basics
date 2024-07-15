@@ -1,6 +1,8 @@
 import requests
 
 def test_auth_token():
+    print("------------------- POST Reuqest ----------------")
+
     url = "https://gorest.co.in/public/v2/users"
     head = {
         'Connection': 'keep-alive',
@@ -8,7 +10,7 @@ def test_auth_token():
     }
     body_post = {
         "name": "niranjan namkeen",
-        "email": "namkeeN_niranjan@ryan-rutherford.example",
+        "email": "namkeeN22_niranjan@ryan-rutherford.example",
         "gender": "male",
         "status": "active"
     }
